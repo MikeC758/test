@@ -28,7 +28,7 @@ h2{
 }
 
 a.font-black{
-    color: black; !important
+    color: black;
 }
 
 /********
@@ -42,9 +42,10 @@ ABOUT
     margin: 60px auto;
     max-width: 400px;
     text-align: center;
+    padding: 08px;
 }
 
-#about img{
+#about .img{
     border-radius: 50%;
     width: 120px;
     margin-bottom: 10px;
@@ -95,6 +96,16 @@ PROJECT
     text-align: center;
 }
 
-#project .card img{
+#card-img{
     width: 100%;
+}
+.card{
+    padding: 10px;
+}
+ 
+#my-image{
+    height: 200px;
+    width: 200px;
+    margin: 0 10px;
+    border-radius: 50%;
 }
